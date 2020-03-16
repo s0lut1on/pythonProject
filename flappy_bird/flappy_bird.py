@@ -18,9 +18,6 @@ pygame.display.set_icon(icon)
 running = True
 
 class Bird:
-    # x = 200
-    # y = 300
-    # count = 1
     def __init__(self):
         self.x = 200
         self.y = 300
