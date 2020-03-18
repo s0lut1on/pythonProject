@@ -91,6 +91,7 @@ while running:
         for j in range(len(listStaticEnemy)-1, -1, -1):
             if (listStaticEnemy[j].x > listBullet[i].x and listStaticEnemy[j].x < (listBullet[i].x + 30)
                 and (listStaticEnemy[j].y + 30) > listBullet[i].y and listStaticEnemy[j].y < listBullet[i].y):
+                listBullet.pop(i)
                 listStaticEnemy.pop(j)
     
     #draw item
